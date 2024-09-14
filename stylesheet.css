@@ -1,0 +1,121 @@
+body {
+    background-image: url('b.jpg');
+    background-size: cover;
+    background-color: #181818;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.right-slogan {
+    font-size: 2rem;
+    position: absolute; 
+    right: 20px; 
+}
+
+.container {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(80, 80, 80, 0.2);
+    max-width: 400px;
+    width: 100%;
+    color: white;
+    left: 0; 
+}
+
+
+h1 {
+    color: #f0f0f0;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #d0d0d0;
+    margin-bottom: 30px;
+}
+
+.input-check {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #b0b0b0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #383838;
+    color: #fff;
+    font-size: 16px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.toggle-password i {
+    color: #fff;
+}
+
+button {
+    width: 100%;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.social-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.social-login a {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-login a i {
+    font-size: 20px;
+}
+
+.social-login a:hover {
+    opacity: 0.8;
+}
